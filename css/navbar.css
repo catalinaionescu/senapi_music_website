@@ -1,0 +1,67 @@
+#navbar {
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+  transition: 0.5s ease;
+  z-index: 1;
+  font-family: 'Architects Daughter', cursive;
+  letter-spacing: 2px;
+}
+#navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 15px 0px 0px 20px;
+  text-decoration: none;
+  font-size: 21px;
+}
+#navbar a.p {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 12px 0px 0px 0px;
+  text-decoration: none;
+  font-size: 17px;
+}
+#navbar a.s {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+#navbar a:hover {
+  color: pink;
+}
+
+.active {
+  color: pink;
+  color: white;
+}
+#navbar-header {
+  position: fixed;
+  height: 52px;
+  background: #fff;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  transition: all 0.5s ease;
+  box-shadow: 0 1px 25px rgba(0,0,0, .1);
+}
+#navbar.hide {
+  top: -60px;
+}
+.active {
+  color: pink;
+  color: white;
+}
+#navbar.scrollUp {
+  transform: translateY(-65px); 
+  transition: all 0.5s ease-in-out;
+}

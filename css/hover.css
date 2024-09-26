@@ -1,0 +1,22 @@
+.imageBox:hover .hoverImg {
+    display: block;
+  background-color: #333;
+}
+.imageBox {
+  position: relative;
+  float: left;
+  background-color: #333;
+}
+
+.imageBox .hoverImg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #333;
+  display: none;
+}
+
+.imageBox:hover .hoverImg {
+  display: block;
+  background-color: #333;
+  }

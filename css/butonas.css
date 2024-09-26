@@ -1,0 +1,22 @@
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #E9967A;
+  color: white;
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 200px;
+  width: 60px;
+  height: 60px;
+  animation-name: 1s ease-in-out;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}

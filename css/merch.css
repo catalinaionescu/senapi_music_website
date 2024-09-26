@@ -1,0 +1,34 @@
+.multiple-images {
+  width: 90%;
+  height: 350px;
+  margin: 0 auto;
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  gap: 300px;
+}
+.image {
+  width: 350px;
+  height: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: background-image 0.5s ease-in-out;
+}
+.image1 {
+  background-image: url(images/a.png);
+}
+.image2 {
+  background-image: url(images/h2.png);
+}
+.image3 {
+  background-image: url(images/v2.png);
+}
+.image1:hover {
+  background-image: url(images/a1.png);
+}
+.image2:hover {
+  background-image: url(images/h1.png);
+}
+.image3:hover {
+  background-image: url(images/v3.png);
+}

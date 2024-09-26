@@ -1,0 +1,51 @@
+.bg1{background-image: url('images/grad1.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  left:0;
+  overflow: hidden;
+  margin: 0;
+  float: left;
+  height: 100%;
+}
+
+ 
+.bg2{background-image: url('images/grad2.png');
+   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  left:0;
+  overflow: hidden;
+  margin: 0;
+  float: left;
+  height: 100%;
+}
+.bg3{background-image: url('images/grad3.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  left:0;
+  overflow: hidden;
+  margin: 0;
+  float: left;
+  z-index: -2;
+
+}
+
+.bg4{background-image: url('images/grad4.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  left:0;
+  overflow: hidden;
+  margin: 0;
+  float: left;
+}
